@@ -1,0 +1,54 @@
+#document-dest-head{
+    height: 100%;
+}
+
+#document-dest-head .row{
+    padding: 50px;
+}
+
+#document-dest{
+    height: 100%;
+    background-color: white;
+}
+
+#document-dest .row{
+    padding: 50px;
+}    
+
+#document-dest .row p{
+    font-size: 1.2rem;
+    color: #808080;
+}
+
+#document-dest .row #col1{
+    padding: 20px 200px;
+}
+
+#document-dest .row #col2{
+    padding: 20px 200px;
+}
+
+#document-dest .row button{
+    padding: 10px 20px;
+    background-color: #5dc774;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    margin-top: 10px;
+}
+
+#document-dest .row button a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1200px){
+
+    #document-dest .row #col1{
+        padding: 20px 20px;
+    }
+
+    #document-dest .row #col2{
+        padding: 20px 20px;
+    }
+}

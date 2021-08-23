@@ -1,0 +1,47 @@
+#purchase-scraap-head{
+    height: 100%;
+}
+
+#purchase-scraap-head .row{
+    padding: 50px;
+}
+
+#purchase-scraap{
+    height: 100%;
+    background-color: white;
+}
+
+#purchase-scraap .row{
+    padding: 50px 200px;
+}    
+
+#purchase-scraap .row p{
+    font-size: 1.2rem;
+    color: #808080;
+}
+
+#purchase-scraap .row i{
+    color: #54be73;
+}
+
+#purchase-scraap .row button{
+    padding: 10px 20px;
+    background-color: #5dc774;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    margin-top: 10px;
+}
+
+#purchase-scraap .row button a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1200px){
+
+    #purchase-scraap .row{
+        padding: 50px 50px;
+    } 
+
+}

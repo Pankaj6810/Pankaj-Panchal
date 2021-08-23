@@ -1,0 +1,462 @@
+#header{
+    height: 100%;
+    background-color: #f3f3f3;
+}
+
+#header #row1{
+    padding: 5px 50px;
+}
+
+#header #row1 p{
+    font-size: 13px;
+    text-align: right;
+    color: #b4b4b4;
+}
+
+#header #row1 b{
+    color: #df0514;
+}
+
+/* NAVBAR SECTION */
+
+#nav{
+    height: 100%;
+    background-color: #fff;
+}
+
+#nav #row1{
+    padding: 5px 50px;
+}
+
+#nav #row1 #col1 ul{
+    text-align: right;
+}
+
+#nav #row1 #col1 ul li a{
+    color: black;
+    font-size: 14px;
+}
+
+#nav #row1 #col1 ul li a:hover{
+    color: #df0514;
+}
+
+/* BANNER SECTION */
+
+#banner{
+    background-image: url(../IMAGES/yoko-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+}
+
+#banner #row1{
+    padding: 50px 110px;
+}
+
+#banner #col1{
+    background-color: white;
+    padding: 40px 40px 0px 40px ;
+    border-radius: 25px;
+}
+
+#banner #col1 table h4{
+    color: #df0514;
+    font-weight: bold;
+}
+
+#t-ryt{
+    text-align: right;
+    vertical-align: center;
+}
+
+#t-ryt i{
+    font-size:55px
+}
+
+.border-remove{
+    border: transparent;
+}
+
+.border-open{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.border-open button{
+    background-color: transparent;
+    border: transparent;
+    font-weight: bolder;
+    color: #13ca00;
+    font-size: 1.2rem;
+}
+
+#g-dir button{
+    background-color: #df0514;
+    border: transparent;
+    border-radius: 25px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    margin: 15px 0px;
+}
+
+@media screen and (max-width: 782px){
+
+    #banner #row1{
+        padding: 50px 20px;
+    }
+    
+}
+
+@media screen and (max-width: 400px){
+
+    #t-ryt i{
+        font-size:35px
+    }
+
+    #banner #col1 table td{
+        font-size: 12px;
+    }
+
+    #banner #col1 table td h4{
+        font-size: 15px;
+    }
+
+    #banner #col1 table td img{
+        width: 30px;
+    }
+
+}
+
+/* TIRE LINEUP AND MAINTAINANCE SECTION */
+
+#tires{
+    height: 100%;
+}
+
+#tires .row{
+    padding: 50px 0px;
+}
+
+#tires .row #col1 h5{
+    position: relative;
+    margin-top: -70px;
+    color: #df0514;
+    background-color: white;
+    padding: 10px;
+}
+
+#tires .row #col1 h5 span{
+    font-size: 16px;
+}
+
+#tires .row #col2 h5{
+    position: relative;
+    margin-top: -70px;
+    color: #df0514;
+    background-color: white;
+    padding: 10px;
+}
+
+@media screen and (max-width: 990px){
+
+    #tires .row #col2{
+        margin-top: 50px;
+    }
+
+}
+
+/* ABOUT SECTION */
+
+#about{
+    height: 100%;
+}
+
+#about #row1{
+    padding: 50px;
+}
+
+#about #row1 #col1{
+    background-color: black;
+    padding: 10px 20px;
+}
+
+#about #row1 #col1 h3{
+    color: white;
+}
+
+#about #row1 #col1 h3 span{
+    color: #df0514;
+}
+
+#about #row1 #col1 p{
+    padding-top: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+#about #row1 #row1-col2{
+    padding: 15px;
+}
+
+#about #row1 #row2-col2{
+    padding: 15px;
+}
+
+#about #row1 #row1-col2 h3{
+    color: #df0514;
+}
+
+#about #row1 #row1-col2 ul{
+    padding: 0;
+}
+
+#about #row1 #row1-col2 ul li{
+    padding: 5px 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+#about #row1 #row2-col2 h3{
+    color: #df0514;
+}
+
+#about #row1 #row2-col2 .rating-star i{
+    font-size: 18px;
+    color: #f8c600;
+}
+
+#about #row1 #row2-col2 #rev-btn{
+    background-color: #df0514;
+    font-size: 14px;
+    padding: 7px 12px;
+    border: transparent;
+    color: white;
+}
+
+#about #row1 #row2-col2 #vew-all{
+    background-color: black;
+    font-size: 14px;
+    padding: 7px 12px;
+    border: transparent;
+    color: white;   
+}
+
+@media screen and (max-width: 600px){
+
+    #about #row1{
+        padding: 20px;
+    }
+
+}
+
+/* SOCIAL SECTION */
+
+#social{
+    height: 100%;
+    background-color: #f6f6f6;
+}
+
+#social #row1{
+    padding: 50px;
+}
+
+#social #row2{
+    padding-bottom: 50px;
+}
+
+#social #row2 #col2-hr{
+    margin-top: 72px;
+}
+
+#social #row2 #col3-hr{
+    margin-top: 72px;
+}
+
+#social #row2 i{
+    margin: 0px 6px;
+    color: #c0c0c0;
+}
+
+@media screen and (max-width: 993px){
+
+    #social #row1{
+        padding: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1200px){
+
+    #social #row2 .card{
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 460px){
+
+    #social #row2 .card{
+        max-width: 14rem;
+    }
+    
+}
+
+/* FIND YOUR TYRE SECTION */
+
+#find-car{
+    height: 100%;
+    padding: 50px;
+    background-color: black;
+}
+
+#find-car #row1 #col1 h4{
+    color: white;
+}
+
+#find-car #row1 #col1 h4 i{
+    color: #df0514;
+    padding: 0px 5px;
+    font-size: 2rem;
+}
+
+#find-car #row2 .col{
+    margin-top:15px;
+}
+
+/* CHANGING TYRES */
+
+#change-tyre{
+    height: 100%;
+    padding: 50px;
+    background-color: white;
+}
+
+#change-tyre #row1 #col1 h2{
+    color: #df0514;
+}
+
+#change-tyre #row2 .col{
+    margin-top:15px;
+}
+
+@media screen and (max-width: 550px){
+
+    #change-tyre #row2 .col .card{
+        max-width: 14rem;
+    }
+
+}
+
+/* NEARBY BRANCHES SECTION */
+
+#branches{
+    height: 100%;
+    padding: 50px;
+    background-color: #f6f6f6;
+}
+
+#change-tyre #row2 .col{
+    margin-top:15px;
+}
+
+#branches #row2 .col p i{
+    color: #f8c600;
+    padding: 0px 2px;
+    font-size: 18px;
+}
+
+#branches #row2 .col p span i{
+    color:#e0dddd;
+}
+
+/* BLOGS SECTION */
+
+#blogs{
+    height: 100%;
+    padding: 50px;
+    background-color: #f6f6f6;
+}
+
+#blogs #row1 #col1 h2{
+    color: #df0514;
+}
+
+#blogs #row2 .col{
+    margin-top:15px;
+}
+
+#blogs #row2 .col .card .flag{
+    background-color: #72d3cf;
+    width: 100px;
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+} 
+
+#blogs #row2 .col .card button{
+    border: none;
+    background-color: transparent;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 700px){
+
+    #blogs #row2 .col .card{
+        max-width: 18rem;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+
+    #blogs #row2 .col .card{
+        max-width: 14rem;
+    }
+
+}
+
+/* FOOTER SECTION */
+
+#footer{
+    height: 100%;
+    padding: 50px 200px;
+    background-color: #262626;
+}
+
+#footer #row1 #col1 p{
+    color: white;
+}
+
+#footer #row1 #col1 p i{
+    padding: 5px 10px;
+}
+
+#footer #row2 .col-lg-3 h5{
+    color: #df0514;
+}
+
+#footer #row2 ul{
+    padding-left: 18px;
+}
+
+#footer #row2 ul li{
+    list-style: none;
+    font-size: 14px;
+}
+
+#footer #row2 ul li a{
+    text-decoration: none;
+    color: #8d8d8d;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 700px){
+
+    #footer{
+        padding: 50px 20px;
+    }
+
+}

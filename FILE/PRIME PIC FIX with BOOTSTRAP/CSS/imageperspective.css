@@ -1,0 +1,99 @@
+#imageperspective-cont{
+    margin: 0 auto;
+    margin-left: 50px;
+    padding-right: 50px;
+}
+
+#imageperspective-left-col{
+    margin-top: 65px;
+    padding-right: 65px;
+    margin-bottom: 45px;
+    border-right: 1px solid rgb(218, 214, 214);
+}
+
+#thirdcol{
+    max-width: 100%;
+}
+
+#imageperspective-cont #hdrimage-left-col h1{
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(218, 214, 214);
+}
+
+#imageperspective-cont #imageperspective-left-col #secondhead{
+    margin-top: 20px;
+    border-bottom: none;
+}
+
+#imageperspective-left-col img{
+    margin-top: 20px;
+}
+
+#imageperspective-cont #imageperspective-right-col{
+    margin-top: 35px;
+    padding-right: 150px;
+}
+
+#imageperspective-cont #imageperspective-right-col .imageperspective-right-col h2{
+    margin-top: 30px;
+}
+
+#imageperspective-cont #imageperspective-right-col .imageperspective-right-col ul{
+    padding: 0;
+}
+
+#imageperspective-cont #imageperspective-right-col .imageperspective-right-col ul li{
+    margin-top: 8px;
+    list-style: none;
+    font-size: 18px;
+}
+
+#imageperspective-cont #imageperspective-right-col .imageperspective-right-col ul li a{
+    text-decoration: none;
+    margin: 0 auto;
+    padding-right: 50px;
+}
+
+#imageperspective-cont #imageperspective-left-col span{
+    color: #7999c1;
+}
+
+#imageperspective-cont #imageperspective-left-col label{
+    font-weight: bold;
+}
+
+#imageperspective-cont #imageperspective-left-col h1{
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(218, 214, 214);
+}
+
+#imageperspective-cont #hdrimage-left-col p{
+    padding-top: 18px;
+}
+
+#imageperspective-cont #imageperspective-left-col form{
+    padding-right: 420px;
+}
+
+#imageperspective-cont #imageperspective-right-col{
+    margin-top: 35px;
+    padding-right: 50px;
+}
+
+#imageperspective-cont #imageperspective-right-col .imageperspective-right-col h2{
+    margin-top: 30px;
+}
+
+#imageperspective-cont #imageperspective-right-col .imageperspective-right-col ul{
+    padding: 0;
+}
+
+#imageperspective-cont #imageperspective-right-col .imageperspective-right-col ul li{
+    margin-top: 8px;
+    list-style: none;
+    font-size: 18px;
+}
+
+#imageperspective-cont #imageperspective-right-col .imageperspective-right-col ul li a{
+    text-decoration: none;
+}

@@ -1,0 +1,43 @@
+#composite-head{
+    height: 100%;
+}
+
+#composite-head .row{
+    padding: 50px;
+}
+
+#composite{
+    height: 100%;
+    background-color: white;
+}
+
+#composite .row{
+    padding: 50px 200px;
+} 
+
+#composite .row p{
+    font-size: 1.2rem;
+    color: #808080;
+}
+
+#composite .row button{
+    padding: 10px 20px;
+    background-color: #5dc774;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    margin-top: 30px;
+}
+
+#composite .row button a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 1200px){
+
+    #composite .row{
+        padding: 50px 50px;
+    } 
+
+}
