@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#banner{
+  height: 100vh;
+  width: 100%;
+}
+
+#banner::before{
+    content: "";
+    position: absolute;
+    background: url('../IMAGES/banner2.jpg') no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+}
+
+#banner #row2 #col1 h1{
+    font-size: 9rem;
+  font-family: 'Caveat', cursive;
+}
+
+#banner #row2 #col1 h3{
+    font-size: 2rem;
+  font-family: monospace;
+  font-weight: normal;
+}
+
+#banner #row2 #col1 p{
+  font-family: 'Caveat', cursive;
+  font-size: 3.5rem;
+}
+
+#banner #row2 #col1 ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+#banner #row2 #col1 ul li{
+  padding: 5px 8px;
+}
+
+#banner #row2 #col1 ul li a{
+  color: black;
+}
+
+#banner #row2 #col1 ul li a i{
+  font-size: 1.7rem;
+}
+
+#about{
+  height: 100%;
+  padding: 80px 50px;
+  background-color: #f5f6fa;
+}
+
+#about #row1 #col1 h1{
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #34475f;
+}
+
+#about #row1 #col1 p{
+  font-size: 1.4rem;
+  color: #34475f;
+  font-family: sans-serif;
+}
+
+#about #row1 #col2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about #row1 #col2 p{
+  color: #34475f;
+  font-weight: bold;
+  font-size: 1.8rem;
+  font-family: sans-serif;
+}
+
+#about #row1 #col2 a{
+  font-size: 18px;
+  color: #34475f;
+  text-decoration: none;
+}
+
+#about #row1 #col2 a i{
+  font-size: 20px;
+  margin-right: 5px;
+  color: #34475f;
+}
+
+#about #row1 #col2 #btn button{
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  background-color: #34475f;
+}
+
+#about #row1 #col2 #btn button a{
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+/* PORTFOLIO SECTION */
+
+#portfolio{
+  height: 100%;
+  background-color: #f5f6fa;
+  padding: 80px 50px;
+}
+
+#portfolio #row1 #col1 h5 a{
+  color: #718093;
+  text-decoration: none;
+}
+
+#portfolio #row1 #col1 h5 a:hover{
+  color: #34475f;
+}
+
+#portfolio #row1 #col2 h5 a{
+  color: #718093;
+  text-decoration: none;
+}
+
+#portfolio #row1 #col2 h5 a:hover{
+  color: #34475f;
+}
+
+#portfolio #row1 #col3 h5 a{
+  color: #718093;
+  text-decoration: none;
+}
+
+#portfolio #row1 #col3 h5 a:hover{
+  color: #34475f;
+}
+
+/* CONTACT SECTION */
+
+#contact{
+  height: 100%;
+  padding: 80px 50px;
+  background-color: #34475f;
+}
+
+#contact #row1 #col1{
+  max-width: 80%;
+  display: flex;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 16px;
+}
+
+#contact #row1 #col1 #col11{
+  font-size: 35px;
+  font-weight: bold;
+  color: #34475f;
+}
+
+#contact #row1 #col1 #col12 button{
+  border: none;
+  background-color: #F06D55;
+  padding: 10px 26px;
+  border-radius: 6px;
+}
+
+#contact #row1 #col1 #col12 button a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 1200px){
+
+  #portfolio #row1 #col2{
+    margin-top: 30px;
+  }
+
+  #portfolio #row1 #col3{
+    margin-top: 30px;
+  }
+
+}
+
+@media screen and (max-width: 999px) {
+  
+  #about #row1 #col2{
+    margin-top: 35px;
+  }
+
+  #contact #row1 #col1{
+    padding: 15px 5px !important;
+  }
+  
+}
+
+@media screen and (max-width: 600px){
+
+  #banner #row2 #col1 h1{
+    font-size: 5rem;
+  }
+
+  #banner #row2 #col1 h3{
+    font-size: 1.5rem;
+  }
+
+  #about #row1 #col1{
+    padding: 20px !important;
+  }
+
+  #about #row1 #col2{
+    padding: 20px !important;
+  }
+
+  #portfolio #row1 .card{
+    width: 15rem !important;
+  }
+
+}
+
+@media screen and (max-width: 400px){
+
+  #about{
+    padding: 80px 30px !important;
+  }
+
+  #about #row1 #col1 h1{
+    font-size: 1.8rem;
+  }
+
+  #about #row1 #col1 p{
+    font-size: 1rem;
+  }
+
+  #about #row1 #col2 p{
+    font-size: 1.4rem;
+  }
+
+  #about #row1 #col2 a{
+    font-size: 14px;
+  }
+
+}

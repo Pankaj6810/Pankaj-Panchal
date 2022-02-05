@@ -1,0 +1,24 @@
+#extended-head{
+    height: 100%;
+}
+
+#extended-head .row{
+    padding: 50px;
+}
+
+#extended{
+    height: 100%;
+    background-color: white;
+}
+
+#extended .row{
+    padding: 50px 200px;
+} 
+
+@media screen and (max-width: 1200px){
+
+    #extended .row{
+        padding: 50px 50px;
+    } 
+
+}

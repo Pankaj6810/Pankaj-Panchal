@@ -1,0 +1,57 @@
+#get-quote-cont{
+    margin: 0 auto;
+    margin-left: 50px;
+    padding-right: 50px;
+}
+
+#get-quote-cont #get-quote-left-col{
+    margin-top: 65px;
+    padding-right: 65px;
+    margin-bottom: 45px;
+    border-right: 1px solid rgb(218, 214, 214);
+}
+
+#get-quote-cont #get-quote-left-col span{
+    color: red;
+}
+
+#get-quote-cont #get-quote-left-col label{
+    font-weight: bold;
+}
+
+#get-quote-cont #get-quote-left-col h1{
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(218, 214, 214);
+}
+
+#get-quote-cont #get-quote-left-col p{
+    padding-top: 18px;
+}
+
+#get-quote-cont #get-quote-left-col form{
+    padding-right: 420px;
+}
+
+#get-quote-cont #getqoute-right-col{
+    margin-top: 35px;
+    padding-right: 150px;
+}
+
+#get-quote-cont #getqoute-right-col .get-qoute-right-col h2{
+    margin-top: 30px;
+}
+
+#get-quote-cont #getqoute-right-col .get-qoute-right-col ul{
+    padding: 0;
+}
+
+#get-quote-cont #getqoute-right-col .get-qoute-right-col ul li{
+    margin-top: 8px;
+    list-style: none;
+    font-size: 18px;
+}
+
+#get-quote-cont #getqoute-right-col .get-qoute-right-col ul li a{
+    text-decoration: none;
+    font-size: 18px;
+}

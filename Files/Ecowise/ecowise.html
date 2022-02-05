@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecowise - Website</title>
+    <link rel="stylesheet" href="CSS/ecowise.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Fontowesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+    <!-- MARQUEE SECTION -->
+
+    <div class="container-fluid" id="marquee">
+
+        <div class="row" id="row1">
+
+            <div class="col-md-6 p-0" id="col1">
+                <p class="mt-1">
+                    <a href="#">News & Media</a>
+                    <a href="#" id="bar"></a>
+                    <a href="#">The Great Indian Trash Collection Drive</a>
+                </p>
+            </div>
+
+            <div class="col-md-6 p-0" id="col2">
+                <marquee class="mt-1" behavior="" direction="left" >
+                    Follow Us on Twitter <a href="#">@EcoWiseWastern</a>
+                    , LinkedIn <a href="#">@manikThapar</a>
+                    , Instagram <a href="#">@Ecoise_recycle</a>
+                </marquee>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- NAVBAR SECTION -->
+
+    <div class="container-fluid" id="footer">
+
+        <div class="row" id="row1">
+
+            <div class="col-lg-10" id="col1">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                    <div class="container-fluid" id="navbar">
+
+                        <a class="navbar-brand" href="#">
+                            <img src="IMAGES/ecowise logo.png" alt="" width="60px">
+                        </a>
+
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+
+                      <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0" id="nav">
+
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                          </li>
+
+                          <li class="nav-item dropdown " id="about">
+                            <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              ABOUT
+                            </a>
+                            <ul class="dropdown-menu mx-auto text-center aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="about-company.html">ABOUT COMPANY</a></li>
+                              <li><a class="dropdown-item" href="testimonials.html">TESTIMONIALS</a></li>
+                              <li><a class="dropdown-item" href="press.html">PRESS & MEDIA</a></li>
+                              <li><a class="dropdown-item" href="career.html">CARRER</a></li>
+                            </ul>
+                          </li>
+
+                          <li class="nav-item dropdown" id="service">
+                            <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                SERVICES
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="Commercial-waste.html">COMMERCIAL WASTE MANAGEMENT</a></li>
+                              <li><a class="dropdown-item" href="industrial-waste.html">INDUSTRIAL WASTE MANAGEMENT</a></li>
+                              <li><a class="dropdown-item" href="residential-waste.html">RESIDENTIAL WASTE MANAGEMENT</a></li>
+                              <li><a class="dropdown-item" href="document-dest.html">DOCUMENT DESTRUCTION</a></li>
+                              <li><a class="dropdown-item" href="product-dest.html">PRODUCT DESTRUCTION</a></li>
+                              <li><a class="dropdown-item" href="purchase-scraap.html">PURCHASE OF SCRAP - WASTE MONETIZATION SERVICES</a></li>
+                              <li><a class="dropdown-item" href="event-waste.html">EVENTS WASTE MANAGEMENT SERVICES</a></li>
+                              <li><a class="dropdown-item" href="e-waste.html">E - WASTE MANAGEMENT SERVICES</a></li>
+                              <li><a class="dropdown-item" href="asset-liq.html">ASSET LIQUIDATION & DISMANTLING SERVICES</a></li>
+                              <li><a class="dropdown-item" href="circular-eco.html">CIRCULAR ECONOMY MODEL IMPLEMENTATION</a></li>
+                              <li><a class="dropdown-item" href="composite.html">COMPOSITE SERVICES</a></li>
+                              <li><a class="dropdown-item" href="extended-prod.html">EXTENDED PRODUCERS RESPONSIBILITY</a></li>
+                            </ul>
+                          </li>
+
+                          <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT US</a>
+                          </li>
+
+                          <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">SIGN IN</a>
+                          </li>
+
+                          <!-- SIGN IN MODAL -->
+
+                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content">
+                                <div class="modal-header justify-content-center">
+                                  <h4 class="modal-title" id="exampleModalLabel">SIGN IN</h4>
+                                </div>
+                                <div class="modal-body">
+                                  
+                                    <form>
+
+                                        <div class="mb-3">
+                                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        </div>
+                        
+                                        <div class="mb-3">
+                                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                                          <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                        
+                                      </form>
+
+                                </div>
+                                <div class="modal-footer mx-auto">
+                                  <button type="button" class="btn btn-success">Sign In</button>
+                                </div>
+                                <div class="mx-auto">
+                                    <p><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1" data-bs-dismiss="modal">Sign Up</a></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- SIG IN MODAL END -->
+
+                          <!-- SIGN UP MODAL -->
+
+                          <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content">
+                                <div class="modal-header justify-content-center">
+                                  <h4 class="modal-title" id="exampleModalLabel">SIGN UP</h4>
+                                </div>
+                                <div class="modal-body">
+                                  
+                                    <form>
+
+                                        <div class="mb-3">
+                                          <label for="exampleInputEmail1" class="form-label">First Name</label>
+                                          <input type="text" class="form-control">
+                                        </div>
+                        
+                                        <div class="mb-3">
+                                          <label for="exampleInputEmail1" class="form-label">Second Name</label>
+                                          <input type="text" class="form-control">
+                                        </div>
+                        
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Mobile Number or Email Address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">    
+                                        </div>
+                                        
+                                        <div class="mb-3">
+                                          <label for="exampleInputPassword1" class="form-label">New Password</label>
+                                          <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                        
+                                    </form>
+
+                                </div>
+                                <div class="modal-footer mx-auto">
+                                  <button type="button" class="btn btn-success">Sign Up</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- SIGN UP MODAL END -->
+
+                        </ul>
+
+                      </div>
+
+                    </div>
+
+                </nav>
+
+            </div>
+
+            <div class="col-lg-2" id="col2">
+
+                <ul class="p-0 mt-4" id="social-link">
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- COROUSAL HEADER SECTION -->
+
+    <div class="container-fluid" id="coro-head">
+
+      <div class="row m-0" id="row1">
+
+        <div class="col-md-8 d-flex mt-4" id="col1">
+          <p class="mx-2"><a href="#"><i class="fas fa-phone-alt mx-2" style="color: #54be73;"></i>+91 - 9563478124</a></p>
+          <p class="mx-2"><a href="#"><i class="fas fa-envelope mx-2" style="color: #54be73;"></i>info@ecowise.net.in</a></p>
+        </div>
+
+        <div class="col-md-4 mt-3" id="col2">
+          <button><a href="request-pickup.html">REQUEST A PICKUP</a></button>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- COROUSAL SECTION -->
+
+    <div class="container-fluid" id="corousal">
+
+      <div class="row" id="row1">
+
+        <div class="col-12 p-0" id="col1">
+
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner text-center">
+
+              <div class="carousel-item active">
+                <img src="IMAGES/Banner-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h1>SUSTAINABLE WASTE MANAGEMENT SERVICES</h1>
+                  <h6>Your Waste, Our Business.</h6>
+                  <button><a href="about-company.html">KNOW MORE</a></button>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="IMAGES/Banner-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h1>ATMANIRBHAR BHARAT THROUGH RESOURCE RECOVERY</h1>
+                  <h6>Helping Secure India’s Raw Material Needs</h6>
+                  <button><a href="about-company.html">KNOW MORE</a></button>
+                </div>                
+              </div>
+
+              <div class="carousel-item">
+                <img src="IMAGES/Banner-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <h1>THE GREAT INDIAN TRASH COLLECTION DRIVE</h1>
+                  <h6>Individual Action For Collective Good</h6>
+                  <button><a href="about-company.html">KNOW MORE</a></button>
+                </div> 
+              </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- WELCOME SECTION -->
+
+    <div class="container-fluid" id="welcome">
+
+      <div class="row h-100 m-0" id="row1">
+
+        <div class="col-12 text-center my-auto p-0" id="col1">
+
+          <i class="fa fa-recycle mb-3" style="font-size: 30px; color: #5dc774;" ></i>
+
+          <h1 class="mt-2">Welcome to Eco Wise</h1>
+
+          <p class="mt-4">We are comprehensive recycling, industry-specific waste management company, focused on sustainability solutions for businesses and corporations.</p>
+
+          <p>Located in Noida, Uttar Pradesh, we are proudly making a positive difference to the environment in every aspect of its business. Our activities divert more than 60 tons of waste from ending up in landfill sites daily by serving residential, industrial and commercial clients on a Pan India basis.</p>
+
+          <p>Drawing on our resources and experience; we actively pursue projects and initiatives that benefit the waste industry, the communities we serve and the environment.</p>
+
+          <img class="m-3" src="IMAGES/manikthapar.jpg" alt="MANIK THAKUR">
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- CARDS SECTION -->
+
+    <div class="container-fluid m-0" id="cards">
+
+      <div class="row m-0" id="row1">
+
+        <div class="col p-0" id="col1">
+          <div class="card mx-auto text-center" style="width: 22rem;">
+            <div class="i">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Pin India Presence</h3>
+              <p class="card-text mt-3" style="color: #808080;">Multiple Locations, Multiple Waste Streams, One Vendor</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col p-0" id="col2">
+          <div class="card mx-auto text-center" style="width: 22rem;">
+            <div class="i">
+              <i class="fas fa-medal" id="location"></i>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Transparent & legally complaint</h3>
+              <p class="card-text mt-3" style="color: #808080;">Three-Step Data Authentication Process, Brand Protection, Trusted by leading national and multinational brands</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col p-0" id="col3">
+          <div class="card mx-auto text-center" style="width: 22rem;">
+            <div class="i">
+              <i class="fas fa-globe-asia"></i>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Sustainability</h3>
+              <p class="card-text mt-3" style="color: #808080;">GRI Based Sustainability Reporting – data on reduction of Green House Gas emission, Circular Economy - Closed Loop Recycling Services</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- SERVICES SECTION -->
+
+    <div class="container-fluid" id="services">
+
+      <div class="row text-center" id="row1">
+
+        <div class="col mt-5" id="col1">
+
+          <i class="fa fa-recycle mb-3" style="font-size: 30px; color: #5dc774;" ></i>
+
+          <h2>Our Services</h2>
+
+          <p>WHAT WE DO</p>
+
+        </div>
+
+      </div>
+
+      <div class="row mx-auto mt-5" id="row2">
+
+        <div class="col" id="col1">
+          <div class="card mx-auto" style="width: 23rem;">
+            <img src="IMAGES/commercial-1.jpg" class="card-img-top p-4" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title"><b>Commercial Waste Management</b></h5>
+              <p class="card-text">Eco Wise provides quality collection, recycling and disposal services to both large and small businesses.</p>
+              <a href="#" style="color: #5dc774; text-decoration: none;">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" id="col2">
+          <div class="card mx-auto" style="width: 23rem;">
+            <img src="IMAGES/industrial-1.jpg" class="card-img-top p-4" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title"><b>Industrial Waste Management</b></h5>
+              <p class="card-text">Eco Wise introduces safe and secure products with the free of destruction and recycling service.</p>
+              <a href="#" style="color: #5dc774; text-decoration: none;">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" id="col3">
+          <div class="card mx-auto" style="width: 23rem;">
+            <img src="IMAGES/residential-1.jpg" class="card-img-top p-4" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title"><b>Residential Waste Management</b></h5>
+              <p class="card-text">Eco Wise is one of the leading provider of eco-friendly and dependable Door-to-Door collection.</p>
+              <a href="#" style="color: #5dc774; text-decoration: none;">Read More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row mx-auto mt-5" id="row3">
+
+        <div class="col" id="col1">
+          <div class="card mx-auto" style="width: 23rem;">
+            <img src="IMAGES/document-1.jpg" class="card-img-top p-4" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title"><b>Document Destruction</b></h5>
+              <p class="card-text">For scheduled paper shredding services, customers receive secure containers free of charge.</p>
+              <a href="#" style="color: #5dc774; text-decoration: none;">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" id="col2">
+          <div class="card mx-auto" style="width: 23rem;">
+            <img src="IMAGES/product-1.jpg" class="card-img-top p-4" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title"><b>Product Destruction</b></h5>
+              <p class="card-text">Eco Wise introduces safe and secure products with the free of destruction and recycling service.</p>
+              <a href="#" style="color: #5dc774; text-decoration: none;">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" id="col3">
+          <div class="card mx-auto" style="width: 23rem;">
+            <img src="IMAGES/purchase-1.jpg" class="card-img-top p-4" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title"><b>Purchase of Scraap</b></h5>
+              <p class="card-text">We Buy Your Recyclables! At Eco Wise we believe in the Three R’s, Reduce, Reuse and Recycle.</p>
+              <a href="#" style="color: #5dc774; text-decoration: none;">Read More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- REQUEST SECTION -->
+
+    <div class="container-fluid p-0" id="request">
+
+      <div class="row m-0 text-center" id="row1">
+
+        <div class="col p-0" id="col1">
+
+          <i class="fa fa-recycle mb-3" style="font-size: 30px; color: #5dc774;" ></i>
+
+          <h1 style="font-weight: bolder; font-family: cursive; color: white;">Request a Pickup</h1>
+
+        </div>
+
+      </div>
+
+      <div class="row m-0 p-5" id="row2">
+
+        <div class="col-md-4" id="col1">
+          <form>
+            <div class="mb-4">
+              <input type="name" class="form-control" placeholder="Full Name *">
+            </div>
+          </form>  
+        </div>
+
+        <div class="col-md-4" id="col2">
+          <form>
+            <div class="mb-4">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email *">
+            </div>
+          </form> 
+        </div>
+
+        <div class="col-md-4"" id="col3">
+          <form>
+            <div class="mb-4">
+              <input type="number" class="form-control" placeholder="Phone Number *">
+            </div>
+          </form> 
+        </div>
+
+        <div class="col-md-6" id="col4">
+          <form>
+            <div class="mb-4">
+              <input type="name" class="form-control" placeholder="Service Required">
+            </div>
+          </form> 
+        </div>
+
+        <div class="col-md-6" id="col5">
+          <form>
+            <div class="mb-4">
+              <input type="name" class="form-control" placeholder="Address *">
+            </div>
+          </form> 
+        </div>
+
+        <div class="col-12" id="col6">
+          <form>
+            <div class="mb-5">
+              <textarea class="form-control" placeholder="Type Message" id="floatingTextarea2" style="height: 100px"></textarea>
+            </div>
+          </form> 
+        </div>
+
+        <div class="col-12 text-center" id="col7">
+          <form>
+            <div class="mt-2">
+              <button>Send Message</button>
+            </div>
+          </form> 
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- PRESS & MEDIA SECTION -->
+
+    <div class="container-fluid" id="press">
+
+      <div class="row m-0" id="row1">
+
+        <div class="col-lg-6 p-0 text-center" id="col1">
+          <img class="img-fluid" src="IMAGES/press.jpg" alt="" style="height: 100vh;">
+        </div>
+
+        <div class="col-lg-6 p-5" id="col2">
+          <h2 class="mb-4"><b>Press & Media</b></h2>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="IMAGES/press1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="IMAGES/press2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="IMAGES/press3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="IMAGES/press4.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="IMAGES/press5.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- FAQ SECTION -->
+
+    <div class="container-fluid p-0" id="faq">
+
+      <div class="row pt-5 m-0" id="row1">
+
+        <div class="col p-0 text-center" id="col1">
+
+          <i class="fa fa-recycle mb-3" style="font-size: 30px; color: #5dc774;" ></i>
+
+          <h1 style="font-weight: bolder; font-family: cursive;">FAQ</h1>
+
+          <p>FREQUENTLY ASKED QUESTIONS</p>
+
+        </div>
+
+      </div>
+
+      <div class="row text-center m-0" id="row2">
+
+        <div class="col-12 p-0" id="col1">
+          <button class="btn btn-lg" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+            WHATS SERVICES DO YOU PROVIDE
+          </button>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body text-left">
+              <p>We provide following services to our clients across India:</p>
+              <ul>
+                <li>Industrial and Commercial Waste and Garbage Collection</li>
+                <li>Purchase of Scrap o Product Destruction</li>
+                <li>Paper Shredding of Confidential documents</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 p-0" id="col2">
+          <button class="btn btn-lg" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+            WHAT DO YOU DO WANT THE WASTE YOU COLLECT?
+          </button>
+          <div class="collapse" id="collapseExample2">
+            <div class="card card-body">
+              <p>We work to make a positive difference to the environment in every aspect of our business. The total waste collected is taken to our ‘Waste Treatment Site’ and is so organic and inorganic waste. The organic waste is converted into high The inorganic waste or the recyclable material is taken to a separate site where it is packaged and sold off to the recycler. The inert waste which cannot be recycled is transported and dumped at a government Authority Landfill site. Eco Wise takes care that the waste that goes into the landfill site comprises materials that has no other possible use and cannot be recycled or d Such type of waste is less than 10% of the total. In future, we are working to achieve zero wastes going into landfill.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 p-0" id="col3">
+          <button class="btn btn-lg" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+            HOW OFTEN DO YOU COLLECT? 
+          </button>
+          <div class="collapse" id="collapseExample3">
+            <div class="card card-body">
+              <p>We collect the waste daily (365 days) from Commercial and Industrial areas. The service is customizable for our clients depending on their requirements.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 p-0" id="col4">
+          <button class="btn btn-lg" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
+            WHAT CAN BE RECYCLED?
+          </button>
+          <div class="collapse" id="collapseExample4">
+            <div class="card card-body">
+              <p> <b>Plastics</b> - PET bottles, PP (Polypropylene), LD (Low Density Polypropylene Density Polypropylene). <br>
+                <b>Metals</b> - Aluminum, Copper, Silver, Gold, Nickel, Iron, Cadmium, Lead, Steel etc. <br>
+                <b>Others</b> - Paper, Cardboard, Wood, Rubber, Glass, Hair, CDs, X cards, Styrofoam, Batteries, Computers and other e-waste.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 p-0" id="col5">
+          <button class="btn btn-lg" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample">
+            WHAT IS YOUR PROCESS?
+          </button>
+          <div class="collapse" id="collapseExample5">
+            <div class="card card-body">
+              <p>We conduct a site appraisal to find out your requirements after which we provide you with best solution customized for you. Our clients are an integral part of this process as they inform us of the challenges faced and their requirements. Our final propose is based upon taking all your considerations into account. After the evaluation and proposal stage, Eco Wise provides its quotes to the client based on which annual contract signed.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 p-0" id="col6">
+          <button class="btn btn-lg" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample">
+            ARE YOUR EMPLOYEES GOING
+          </button>
+          <div class="collapse" id="collapseExample6">
+            <div class="card card-body">
+              <p>Yes, our labor or ‘Health Officers’, as we like to call them, are fully trained to collect, sort and segregate your waste and provide you with utmost convenience and comfort. They follow all safety and health measures. You can put a smile on their faces by segregating the waste at your commercial and industrial places into wet and dry.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 p-0" id="col7">
+          <button class="btn btn-lg" data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample">
+            HOW WILL YOU COLLECT THE WASTE?
+          </button>
+          <div class="collapse" id="collapseExample7">
+            <div class="card card-body">
+              <p>The waste is collected using different size of trucks depending on the quantity and quality of the scrap to be collected. We have facilities to deal with all quantities and qualities of waste.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 p-0" id="col8">
+          <button class="btn btn-lg" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample">
+            IS THERE ANY IDENTIFICATION/POLICE VERIFICATION OF THE EMPLOYEES?
+          </button>
+          <div class="collapse" id="collapseExample8">
+            <div class="card card-body">
+              <p>Yes, our employees have proper Government approved I.D. cards and prior police verification done.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 p-0" id="col9">
+          <button class="btn btn-lg" data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample">
+            HOW DO I CONTACT YOU?
+          </button>
+          <div class="collapse" id="collapseExample9">
+            <div class="card card-body">
+              <p>
+                1. Contact us on our Email Id – Info@ecowise.net.in <br>
+                2. Phone nos. – 78129-39393 <br>
+                3. Visit our Website and fill the contact us form <br>
+                4. Give us a visit honour <br> <br>
+                <b>Address:   Ecowise Trading Pvt. Ltd.</b> <br>
+                Plot 14 F, Udyog Kendra Mahila, <br>
+                Udyami Park, Greater Noida, <br>
+                Gautam Bhudh Nagar
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 p-0" id="col10">
+          <button class="btn btn-lg" data-bs-toggle="collapse" href="#collapseExample10" role="button" aria-expanded="false" aria-controls="collapseExample">
+            DO YOU PROVIDE ONE TIME SERVICES
+          </button>
+          <div class="collapse" id="collapseExample10">
+            <div class="card card-body">
+              <p>Yes, request for Waste Management and Recycling is important to us.</p>
+          </div>
+        </div>
+
+        <div class="col-12 p-0" id="col11">
+          <button class="btn btn-lg" data-bs-toggle="collapse" href="#collapseExample11" role="button" aria-expanded="false" aria-controls="collapseExample">
+            WHAT ARE YOUR PRICES AND WHO ARE YOUR CLIENTS
+          </button>
+          <div class="collapse" id="collapseExample11">
+            <div class="card card-body">
+              <p>The client needs to sign a Non- Disclosure Agreement to avail this information.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- TESTIMONIALS SECTION -->
+
+    <div class="container-fluid" id="testimonials">
+
+      <div class="row m-0" id="row1">
+
+        <div class="col-12 mt-5 text-center " id="col1">
+
+          <i class="fa fa-recycle mb-3" style="font-size: 30px; color: #5dc774;" ></i>
+
+          <h1 style="font-weight: bolder; font-family: cursive;">Testimonials</h1>
+
+          <p>WHAT CLIENTS SAY</p>
+
+        </div>
+
+      </div>
+
+      <div class="row m-0" id="row2">
+
+        <div class="col text-center" id="col1">
+
+          
+
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h4 style="font-family: italic;">
+                  It has been a pleasure being associated with Eco Wise. Eco Wise has been very supportive to us during the last year. The year 2020 has been very difficult for everyone. Especially for the hospitality industry as travel had almost come to a halt. Eco Wise stood strong and by our side through the difficult times and have been very co-operative as we struggled to make our monthly dues.
+                  Their service has been extremely good and they have always been very prompt in responding to our queries. A special shout-out to Ms. Kumkum Tejpal and Mr. Gajendra for their support.
+                </h4>
+                <h4 class="mt-4">
+                  <b>Rohan Saigal</b>
+                </h4>
+                <p>HOTEL CASPIA PRO</p>
+              </div>
+              <div class="carousel-item">
+                <h4 style="font-family: italic;">
+                  Eco Wise is a private company engaged in waste management services in the NCR. Eco Wise is providing yeoman’s services to the Noida. It has pioneered the expertise of converting the garbage into vermicompost and hygienically segregating the other waste material. Their unstinted efforts of making the environment clean and hygienically safe are indeed valuable. Eco Wise has been associated with Eldeco for over four years and we appreciate the good work being done and wish them great success in their Endeavour to improve the environment and promote greening of the area.					
+                </h4>
+                <h4 class="mt-4">
+                  <b>Rakesh Sant</b>
+                </h4>
+                <p>WG CDR ( CONSULTANT ESTATE MANAGER )</p>
+              </div>
+              <div class="carousel-item">
+                <h4 style="font-family: italic;">
+                  Eco Wise has been collecting waste from our organization for the last few years. They are the professional and credible waste management company in the NCR region based in Noida. Their process includes collection, segregation and transportation of wastes to the Recycling plant. I highly recommend them to any organization or housing group looking for waste management services.					
+                </h4>
+                <h4 class="mt-4">
+                  <b>Sanjeev Kapur</b>
+                </h4>
+                <p>SVP AND GLOBAL HEAD</p>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- SOCIAL SECTION -->
+
+    <div class="container-fluid" id="social">
+
+      <div class="row h-100 m-0" id="row1">
+
+        <div class="col-lg-4 text-center my-auto p-2" id="col1">
+          <p class="mb-0" style="color: white; font-size: 20px;"><i class="fas fa-phone-alt"></i> +91-78129-39393</p>
+        </div>
+
+        <div class="col-lg-4 text-center my-auto p-2" id="col2">
+          <p class="mb-0" style="color: white; font-size: 20px;" ><i class="fas fa-envelope"></i> info@ecowise.net.in</p>
+        </div>
+        
+        <div class="col-lg-4 text-center my-auto p-2" id="col3">
+          <form>
+            <input type="email">
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- CONTACT SECTION -->
+
+    <div class="container-fluid" id="contact">
+
+      <div class="row m-0 mx-auto h-100" id="row1">
+
+        <div class="col-lg-4 text-center my-auto p-5" id="col1">
+          <img class="mb-3" src="IMAGES/footer-logo.png" alt="">
+          <p>We offer comprehensive recycling & sustainable waste management services to Industrial, commercial and residential establishments.</p>
+          <p><i class="fas fa-phone-alt" style="color: #54be73;"></i> +91-78129-39393</p>
+          <p style="color: #54be73;"><i class="fas fa-pencil-alt"></i> Info@ecowise.net.in</p>
+          <p id="muti-icon"><i class="fab fa-linkedin-in"></i> <i class="fab fa-twitter"></i> <i class="fab fa-instagram"></i> <i class="fab fa-facebook-f"></i> <i class="fab fa-youtube"></i></p>
+        </div>
+
+        <div class="col-lg-4 text-center my-auto p-5" id="col1">
+          <h2 class="mb-4">Contact Form</h2>
+          <form>
+            <input type="text" placeholder="Full Name"> <br>
+            <input type="email" placeholder="Email Address"> <br>
+            <input type="text" placeholder="Message"> <br>
+            <button>Send Message</button>
+          </form>
+        </div>
+        
+        <div class="col-lg-4 text-center my-auto p-5" id="col1">
+          <h2 class="mb-4">Recent News</h2>
+          <p class="mb-0">How Landfills Works</p>
+          <p style="color: #54be73;">February 12, 2021</p>
+  
+          <p class="mb-0">Most Fuel Efficient Car Engine</p>
+          <p style="color: #54be73;">February 12, 2021</p>
+          
+          <p class="mb-0">Paper Shredding & Waste Paper Disposal Services</p>
+          <p style="color: #54be73;">February 12, 2021</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="container-fluid" id="copyryt">
+
+      <div class="row h-100 m-0" id="row1">
+
+        <div class="col-12 my-auto text-center p-0" id="col1"><i class="far fa-copyright"></i> COPYRIGHT 2021 ALL RIGHTS RESERVED</div>
+
+      </div>
+
+    </div>
+    
+</body>
+</html>

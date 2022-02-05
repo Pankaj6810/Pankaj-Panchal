@@ -1,0 +1,50 @@
+@media screen and (max-width: 460px){
+
+    #left-cont{
+     margin: 0;
+     padding: 0;
+    }
+
+    #left-cont li a{
+        color: white;
+        font-size: 10px;
+        text-decoration: none;
+    }
+
+    #right-cont{
+        margin: 0;
+        padding: 0;
+       }
+   
+    #right-cont li a{
+        color: white;
+        font-size: 10px;
+        text-decoration: none;
+    }
+
+    /* BANNER */
+
+    #banner img{
+        width: 150px;
+    }
+
+    /* GET QUOTE PAGE SECTION */
+
+    #get-quote-cont #get-quote-left-col{
+        padding-left: 0;
+    }
+
+    #get-quote-cont #get-quote-left-col form input{
+        width: 250px;
+    }
+
+    #get-quote-cont #get-quote-left-col form .form-control{
+        width: 250px;
+    }
+
+    #footer-cont #footer-row-1 #link-col{
+        border-right: 1px solid rgb(95, 95, 95);
+        max-width: 280px;
+    }
+
+} 

@@ -1,0 +1,714 @@
+#marquee #row1 #col1 #bar::before{
+    content: "|";
+    position: absolute;
+    color: white;
+    width: 1%;
+    height: 1%;
+}
+
+#marquee #row1 #col1 #bar{
+    margin-left: 1%;
+    margin-right: 2%;
+}
+
+#marquee #row1 #col1{
+    background-color: #5dc774;
+    height: 35px;
+}
+
+#marquee #row1 #col1 p{
+    padding-left: 5%;
+}
+
+#marquee #row1 #col1 a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#marquee #row1 #col2{
+    background-color: #1bac57;
+}
+
+#marquee #row1 #col2 marquee{
+    color: white;
+}
+
+#marquee #row1 #col2 marquee a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 412px){
+
+    #marquee #row1 #col1{
+        display: none;
+    }
+
+}
+
+/* FOOTER SECTION */
+
+#footer #row1{
+    background-color: rgb(250, 250, 250);
+}
+
+#footer #row1 #col1 ul li a:hover{
+    color: #5dc774;
+    background-color: transparent;
+}
+
+#footer #row1 #col1 ul li a:hover{
+    color: #5dc774;
+    background-color: transparent;
+}
+
+#footer #row1 #col2 ul{
+    display: flex;
+}
+
+#footer #row1 #col2 ul li{
+    list-style: none;
+    border: 2px solid grey;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 0 5px;
+}
+
+#footer #row1 #col2 ul li a{
+    text-decoration: none;
+}
+
+#footer #row1 #col2 ul li a i{
+    font-size: 18px;
+    color: grey;
+}
+
+@media screen and (min-width: 993px){
+
+    #footer #row1 #col1 #nav{
+        margin-left: 20%;
+    }
+
+    #footer #row1 #col1 #nav li{
+        margin-left: 40px;
+    }
+
+}
+
+@media screen and (max-width: 993px){
+
+    #footer #row1 #col2{
+        display: none;
+    }
+
+}
+
+/* COROUSAL HEAD SECTION */
+
+#coro-head{
+    position: absolute;
+    z-index: 2;
+}
+
+#coro-head #row1 #col1 p a{
+    color: white;
+    text-decoration: none;
+}
+
+#coro-head #row1 #col1 p a i{
+    background-color: white;
+    padding: 18px;
+    border-radius: 50%;
+}
+
+#coro-head #row1 #col2 button{
+    background-color: #1bac57;
+    border: 2px solid #1bac57;
+}
+
+#coro-head #row1 #col2 button:hover{
+    background-color: transparent;
+}
+
+#coro-head #row1 #col2 button a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-width: 768px){
+
+    #coro-head #row1 #col2 button{
+        padding: 15px;
+        border-radius: 15px;
+        float: right;
+        margin-right: 25px;
+    }
+
+}
+
+@media screen and (max-width: 788px){
+
+    #coro-head{
+        background-color: grey;
+        height: 25vh;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    #coro-head #row1 #col2{
+        text-align: center;
+    }
+
+    #coro-head #row1 #col1{
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+
+    #coro-head #row1 #col1 p a{
+        font-size: 12px;
+    }
+
+    #coro-head #row1 #col1 p a i{
+        padding: 8px;
+    }
+
+}
+
+/* COROUSAL SECTION */
+
+#corousal #row1 #col1 .carousel-item{
+    height: 100%;
+}
+
+.carousel-caption{
+    top: 270px;
+}
+
+.carousel-caption h1{
+    font-family: cursive;
+}
+
+.carousel-caption h6{
+    margin-top: 20px;
+    font-size: larger;
+}
+
+.carousel-caption button{
+    margin-top: 20px;
+    background-color: #5dc774;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: 2px solid #5dc774;
+}
+
+.carousel-caption button:hover{
+    background-color: transparent;
+}
+
+.carousel-caption button a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 955px){
+
+    .carousel-caption{
+        top: 200px;
+    }
+
+}
+
+@media screen and (max-width: 788px){
+
+    #corousal{
+        margin-top: 92px;
+    }
+
+    .carousel-item{
+        height: 450px;
+    }
+
+    .carousel-caption{
+        top: 100px;
+    }
+
+}
+
+@media screen and (max-width: 765px){
+
+    #corousal{
+        margin-top: 165px;
+    }
+
+    .carousel-caption{
+        top: 50px;
+        height: 280px;
+    }
+
+    .carousel-caption h1{
+        font-size: 18px;
+    }
+
+    .carousel-control-prev{
+        height: 300px;
+    }
+
+    .carousel-control-next{
+        height: 300px;
+    }
+
+    .carousel-caption h6{
+        font-size: 12px;
+        margin-top: 8px;
+    }
+
+    .carousel-caption button{
+        padding: 2px 5px;
+        margin-top: 8px;
+    }
+
+    .carousel-caption button a{
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 590px){
+
+    #corousal{
+        height: 350px;        
+    }
+
+}
+
+@media screen and (max-width: 440px){
+
+    .carousel-caption{
+        top: 50px;
+    }
+
+    .carousel-caption h1{
+        font-size: 10px;
+    }
+
+    .carousel-caption h6{
+        font-size: 7px;
+    }
+
+    .carousel-caption button a{
+        font-size: 10px;
+    }
+   
+}
+
+/* WELCOME SECTION */
+
+#welcome{
+    height: 100%;
+    padding: 50px 0px;
+    background-color: white;
+}
+
+#welcome #row1{
+    vertical-align: center;
+}
+
+#welcome #row1 #col1 h1{
+    font-family: cursive;
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 420px){
+
+    #welcome #row1 #col1 img{
+        width: 250px;
+    }
+
+} 
+
+/* CARD SECTION */
+
+#cards{
+    height: 100%;
+    padding: 50px 10px;
+    background-color: white;
+}
+
+#cards .col .card{
+    height: 20rem;
+    border: 2px solid #d1d0d0;
+    border-radius: 10px;
+}
+
+#cards .col .card .i i{
+    font-size: 1.5rem;
+    background-color: #5dc774;
+    padding: 20px;
+    border-radius: 50%;
+    color: white;
+    position: relative;
+    top: -35px;
+}
+
+@media screen and (max-width: 1200px){
+
+    #cards{
+        height: 105vh;
+    }
+
+    #cards #col3{
+        margin-top: 35px;
+        margin-bottom: 40px;
+    }
+
+}
+
+@media screen and (max-width: 993px){
+
+    #cards{
+        height: 185vh;
+    }
+
+    #cards .col{
+        margin-top: 35px;
+        margin-bottom: 40px;
+    }
+
+}
+
+@media screen and (max-width: 515px){
+
+    #cards{
+        margin-top: 105px;
+    }
+
+}
+
+@media screen and (max-width: 439px){
+
+    .card{
+        max-width: 18rem;
+    }
+
+}
+
+/* SERVICES SECTION */
+
+#services{
+    height: auto;
+    padding: 50px;
+    background-color: #f7f5f5;
+}
+
+#services #row1{
+    padding-top: 25px;
+}
+
+#services .card{
+    border: none;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1200px){
+
+    #services #row2 #col3{
+        margin-top: 20px;
+    }
+
+    #services #row3 #col3{
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 805px){
+
+    #services #row2 #col2{
+        margin-top: 20px;
+    }
+
+    #services #row3 #col2{
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+
+    #services .card{
+        max-width: 18rem;
+    }
+
+}
+
+@media screen and (max-width: 365px){
+
+    #services .card{
+        max-width: 15rem;
+    }
+
+}
+
+/* REQUEST SECTION */
+
+body{
+    background-image: url("https://www.ecowise.net.in/wp-content/uploads/2021/02/parallax-1.jpg");
+    background-attachment: fixed;
+}
+
+#request{
+    height: 100vh;
+}
+
+#request::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+#request #row1{
+    padding-top: 90px;
+}
+
+#request #row2 button{
+    background-color: #5dc774;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: 2px solid #5dc774;
+    color: white;
+} 
+
+#request #row2 button:hover{
+    background-color: transparent;
+}
+
+@media screen and (max-width: 768px){
+
+    #request::before{
+        height: 130vh;
+    }
+
+    #request{
+        height: 130vh;
+    }
+
+    #request #row2{
+        padding: 0px !important;
+    }
+
+}
+
+/* PRESS SECTION */
+
+#press{
+    background-color: white;
+    height: 100vh;
+}
+
+@media Screen and (max-width: 993px){
+
+    #press{
+        height: 225vh;
+    }
+
+    #press #row1 #col1{
+        margin-top: 50px;
+    }
+
+}
+
+@media Screen and (max-width: 620px){
+
+    #press{
+        height: 200vh;
+    }
+
+}
+
+@media Screen and (max-width: 480px){
+
+    #press .carousel{
+        height: 240px;
+    }
+
+    #press .carousel-inner{
+        height: 380px;
+    }
+
+}
+
+@media Screen and (max-width: 380px){
+
+    #press{
+        height: 170vh;
+    }
+
+    #press .carousel-inner{
+        height: 320px;
+    }
+
+}
+
+/* FAQ SECTION */
+
+#faq{
+    height: 100%;
+    background-color: #f7f5f5;
+}
+
+#faq #row2 .col-12 button{
+    width: 70%;
+    color: white;
+    background-color: #5dc774;
+    border: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#faq #row2 .col-12 button:focus{
+    box-shadow: none;
+}
+
+#faq #row2 .col-12 .card{
+    width: 70%;
+    margin: 0px auto;
+    text-align: left;
+}
+
+#faq #row2 #col11{
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 500px){
+    
+    #faq #row2 .col-12 button{
+        width: 90%;
+    }
+
+    #faq #row2 .col-12 .card{
+        width: 90%;
+    }
+
+}
+
+/* TESTIMONAILS */
+
+#testimonials{
+    height: 100%;
+    background-color: white;
+}
+
+#testimonials #row2{
+    padding: 100px 300px;
+}
+
+@media screen and (max-width: 1200px){
+
+    #testimonials #row2{
+        padding: 0px;
+    }
+
+}
+
+@media screen and (max-width: 460px){
+
+    .carousel-item{
+        height: 90vh;
+    }
+
+}
+
+/* SOCIAL SECTION */
+
+#social{
+    height: 100%;
+    background-color: #5dc774;
+}
+
+#social #row1{
+    padding: 20px 0px;
+}
+
+#social #row1 .col-lg-4 p i{
+    border: 1px solid white;
+    padding: 22px;
+    border-radius: 50%;
+    color: #5dc774;
+    background-color: white;
+    font-size: 14px;
+}
+
+#social #row1 .col-lg-4 input{
+    width: 60%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* CONTACT SECTION */
+
+#contact{
+    height: 100%;
+    background-color: #323232;
+}
+
+#contact #row1{
+    padding: 50px 100px;
+}
+
+#contact #row1 #col1 p{
+    color: white;
+}
+
+#contact #row1 #col1 h2{
+    color: white;
+    font-family: fantasy;
+}
+
+#contact #row1 #col1 input{
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+#contact #row1 #col1 button{
+    padding: 10px 20px;
+    background-color: #5dc774;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    margin-top: 10px;
+}
+
+#contact #row1 #col1 #muti-icon i{
+    margin: 0px 5px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 980px){
+    
+    #contact #row1{
+        padding: 50px 20px;
+    }
+
+}
+
+/* COPYRYT SECTION */
+
+#copyryt{
+    height: 10vh;
+    background-color: white;
+}
