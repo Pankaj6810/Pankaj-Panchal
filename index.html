@@ -21,6 +21,8 @@
 </head>
 <body>
 
+    <div id="preloader"></div>
+
     <!-- BANNER SECTION -->
 
     <div class="conatiner-fluid px-0" id="banner">
@@ -131,9 +133,17 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
+
     AOS.init({
         offset: 200
     });
+
+    var loader = document.getElementById("preloader");
+
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })
+        
   </script>
 
     <link rel="stylesheet" href="Js/index.js">
